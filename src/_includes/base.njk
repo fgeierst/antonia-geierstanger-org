@@ -7,15 +7,14 @@
 	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
 <body>
-	<header>
-		{% include 'header.njk' %} 
-	</header>
-	<main>
-	<h1>{{ title }}</h1>
-	{{ content | safe }}
-	</main>
-
-
-
+	<div class="wrapper">
+		<aside class="wrapper__sidebar">
+			{% include 'header.njk' %} 
+		</aside>
+		<main class="wrapper__main">
+		<h1>{{ title }}</h1>
+		{{ content | safe }}
+		</main>
+	</div>
 </body>
 </html>

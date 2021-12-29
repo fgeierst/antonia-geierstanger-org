@@ -1,4 +1,6 @@
-{{ collections.all | eleventyNavigation | eleventyNavigationToHtml({ 
-	activeListItemClass: "active", 
-	activeKey: eleventyNavigation.key 
-}) | safe }}
+<nav id="nav" class="nav">
+	{{ collections.all | eleventyNavigation | eleventyNavigationToHtml({ 
+		activeListItemClass: "nav__active", 
+		activeKey: eleventyNavigation.key 
+	}) | safe }}
+</nav>

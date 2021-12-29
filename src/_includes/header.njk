@@ -1,9 +1,9 @@
-<header>
+<a href="/" id="site-title">
+	{% image "./src/assets/logos/ageierst-logo-2022-1.svg", "Silhouetten eines Pferdes und eines Hundes", "header__logo" %}
+</a>
 
-	<a href="/" id="site-title">Antonia Geierstanger</a>
+<div id="contact">
+	{% include 'contact.njk' %}
+</div>
 
-	<!-- <div id="contact">	{% include 'contact.njk' %} </div> -->
-
-	<nav id="nav" class="nav">	{% include 'nav.njk' %} </nav>
-
-</header>
+{% include 'nav.njk' %} 

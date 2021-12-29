@@ -1,6 +1,28 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, cls, sizes ) {
+  let metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ["avif", "jpeg", "svg"],
+    outputDir: "./public/assets/img/",
+    urlPath: "/assets/img/",
+    svgShortCircuit: true,
+  });
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function (eleventyConfig) {
+
   eleventyConfig.addWatchTarget("./src/scss/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addFilter("dropContentFolder", function (path) {
@@ -13,6 +35,8 @@ module.exports = function (eleventyConfig) {
     }
     return path.slice(pathToDrop.length)
   });
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+
   return {
     dir: {
       input: "src",
