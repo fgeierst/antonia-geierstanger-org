@@ -2,7 +2,6 @@
 title: Datenschutzerklärung
 eleventyNavigation:
   key: Datenschutz
-  parent: Kontakt
 ---
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
