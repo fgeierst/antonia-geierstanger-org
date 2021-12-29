@@ -38,6 +38,7 @@
 			display: none;
 			&--open {
 				display: block;
+				border-block-end: 2px solid var(--color-blue);
 			}
 		}
 	}
