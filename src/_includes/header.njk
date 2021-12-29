@@ -1,9 +1,12 @@
-<a href="/" id="site-title">
+
+<button class="header__menu-button" onclick="document.querySelector('.header__nav').classList.toggle('header__nav--open')">Menü</button>
+
+<a href="/" class="header__link">
 	{% image "./src/assets/logos/ageierst-logo-2022-1.svg", "Silhouetten eines Pferdes und eines Hundes", "header__logo" %}
+	<span class="header__site-title">Antonia Geierstanger</span>
 </a>
 
-<div id="contact">
-	{% include 'contact.njk' %}
-</div>
+
 
 {% include 'nav.njk' %} 
+
