@@ -1,5 +1,5 @@
 ---
-title: Pferde-Stärken - Das Pferd als Spielgel deines Selbst
+title: Pferde-Stärken — Das Pferd als Spielgel deines Selbst
 eleventyNavigation:
   key: Pferde-Stärken
   parent: Kurse

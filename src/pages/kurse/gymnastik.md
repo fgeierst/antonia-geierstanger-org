@@ -1,5 +1,5 @@
 ---
-title: Gymnastikkurs - nicht nur für das Pferd
+title: Gymnastikkurs — nicht nur für das Pferd
 eleventyNavigation:
   key: Gymnastik
   parent: Kurse

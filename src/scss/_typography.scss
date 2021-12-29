@@ -3,6 +3,7 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-background);
 	font-size: clamp(1rem, 1rem + .42vw, 1.41rem);
+	word-break: break-word;
 }
 
 a {

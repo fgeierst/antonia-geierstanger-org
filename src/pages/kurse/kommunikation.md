@@ -1,5 +1,5 @@
 ---
-title: Kommunikation ohne Worte - Führen lernen mit Pferden
+title: Kommunikation ohne Worte — Führen lernen mit Pferden
 eleventyNavigation:
   key: Führen lernen
   parent: Kurse

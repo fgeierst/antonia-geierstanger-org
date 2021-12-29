@@ -1,11 +1,10 @@
 ---
-title: Informationstag - Was ist Pferdephysiotherapie?
+title: Informationstag — Was ist Pferdephysiotherapie?
 eleventyNavigation:
   key: Infotag
   parent: Kurse
 ---
-<!-- [{{ :antonia_info.jpg?240|Was ist Pferdephysiotherapie?}}] -->
-
+<!-- {% image "./src/assets/photos/antonia_info.jpg", "Antonia Geierstanger vor dem Infostand", "img", "(min-width: 30em) 50vw, 100vw" %} -->
 
 ## Was ist Pferdephysiotherapie?
 
