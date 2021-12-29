@@ -10,7 +10,6 @@ eleventyNavigation:
 Die Anmeldung ist per [Email](mailto:antonia@geierstanger.org) oder telefonisch 0176 21309104 möglich. Weitere Termine auf Anfrage. Auf Wunsch können Kurse und Vorträge auch in ihrem Stall stattfinden.
 
 
-
 ## Kombikurs mit Heinz Welz
 
 *  Termin: 5.-8. August 2016

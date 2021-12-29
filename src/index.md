@@ -4,7 +4,7 @@ layout: base.njk
 eleventyNavigation:
   key: Biographie
 ---
-<!-- {{gallery>:start}}  -->
+{% image "./src/assets/biographie/infotag_ii.jpg", "Antonia Geierstanger", "img", "(min-width: 30em) 50vw, 100vw" %}
 
 ## Biographie
 

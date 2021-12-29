@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
     return path.slice(pathToDrop.length)
   });
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
 
   return {
     dir: {
