@@ -1,4 +1,6 @@
-# Preise
+---
+title: Preise
+---
 
 [{{ ausschnitt.jpg?240|**Antonia Geierstanger**\\ Pferde- und Hundephysiotherapeutin\\ Trainerin C Reiten\\ Ergotherapeutin}}]
 

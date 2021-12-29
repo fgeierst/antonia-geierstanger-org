@@ -2,10 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   '@11ty/eleventy': ^0.12.1
+  '@11ty/eleventy-navigation': ^0.3.2
   npm-run-all: ^4.1.5
   sass: ^1.45.1
 
 dependencies:
+  '@11ty/eleventy-navigation': 0.3.2
   npm-run-all: 4.1.5
   sass: 1.45.1
 
@@ -17,6 +19,12 @@ packages:
   /@11ty/dependency-tree/1.0.0:
     resolution: {integrity: sha512-2FWYlkphQ/83MG7b9qqBJfJJ0K9zupNz/6n4EdDuNLw6hQHGp4Sp4UMDRyBvA/xCTYDBaPSuSjHuu45tSujegg==}
     dev: true
+
+  /@11ty/eleventy-navigation/0.3.2:
+    resolution: {integrity: sha512-7RJdnViAdHtDTVgJBN07+a0G5T4x6IhyjFVHkBhtlasKibsfT7+9j8nnFoJr76ngrUCm1SQ/1P/dS75j6ojVjQ==}
+    dependencies:
+      dependency-graph: 0.11.0
+    dev: false
 
   /@11ty/eleventy/0.12.1:
     resolution: {integrity: sha512-YGG1Vk0IPXsExSAwIyv6zccxxlaxXLb4PvO/G+SW66Dsz2l1ZSObJuukVTLc6iMpqZCS+LZQNXnaqG9PuRmy7w==}
@@ -639,7 +647,6 @@ packages:
   /dependency-graph/0.11.0:
     resolution: {integrity: sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==}
     engines: {node: '>= 0.6.0'}
-    dev: true
 
   /destroy/1.0.4:
     resolution: {integrity: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=}

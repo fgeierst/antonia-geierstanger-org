@@ -1,5 +1,9 @@
+---
+title: Therapeutisches "Reiten"
+eleventyNavigation:
+  key: therapeutisches-reiten
+---
 {{gallery>:ergo_}}
-# Therapeutisches "Reiten"
 
 ## Ergotherapie mit dem Pferd...
 

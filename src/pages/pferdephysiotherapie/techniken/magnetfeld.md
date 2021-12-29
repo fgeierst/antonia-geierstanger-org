@@ -1,7 +1,13 @@
-{{gallery>:magnetfeld}}
-# Magnetfeldtherapie
+---
+title: Magnetfeldtherapie
+eleventyNavigation:
+  key: Magnetfeldtherapie
+  parent: Techniken
+---
 
-#### Einsatzbereiche
+{{gallery>:magnetfeld}}
+
+## Einsatzbereiche
 
    * Arthrose/ Arthritis
    * Atemwegserkrankungen
@@ -15,7 +21,8 @@
    * Lymphstauungen
 *  Muskelverspannungen
    * Schmerzen in der Wirbelsäule
-##### Sportverletzungen
+   
+### Sportverletzungen
 
    - Muskelverletzungen
    - Bäderrisse und – Zerrungen

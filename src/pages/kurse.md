@@ -1,7 +1,9 @@
+---
+title: Kurse
+---
+
 {{gallery>:kurse}}
 
-
-# Kurse 
 
 # Kombikurs mit Heinz Welz
 

@@ -1,5 +1,8 @@
+---
+title: Hundephysiotherapie
+---
+
 {{gallery>:hunde}}
-# Hundephysiotherapie
 
 Die Hundephysiotherapie wird zur Schmerzlinderung, Bewegungsverbesserung und Erhalt, Muskelaufbau und Narbenbehandlung eingesetzt.
 

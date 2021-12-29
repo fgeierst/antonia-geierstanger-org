@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{{ title }} — Antonia Geierstanger</title>
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+</head>
+<body>
+	<header>
+		{% include 'header.njk' %} 
+	</header>
+	<main>
+	<h1>{{ title }}</h1>
+	{{ content | safe }}
+	</main>
+
+
+
+</body>
+</html>
