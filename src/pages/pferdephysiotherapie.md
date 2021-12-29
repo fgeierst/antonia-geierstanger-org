@@ -1,11 +1,9 @@
 ---
-title: Pferdephysiotherapie
+title: Was ist Pferdephysiotherapie?
 eleventyNavigation:
   key: Pferdephysiotherapie
 ---
 <!-- {{gallery>:physio_info}} -->
-
-## Was ist Pferdephysiotherapie?
 
 Eine auf das Pferd (und den Reiter) individuell abgestimmte Therapie, um
 
@@ -20,7 +18,7 @@ Pferdephysiotherapie ist kein Ersatz, sondern eine Ergänzung zur Veterinärmedi
 
 ## Ablauf der Therapie
 
-**1. Termin:** Pferde Check (therapeutische Befundung, Dauer ca. 60 - 90 Min.)
+*  **1. Termin:** Pferde-Check (therapeutische Befundung, Dauer ca. 60 - 90 Min.)
+*  **2. Termin:** Behandlung (manuelle oder energetische Behandlung, Geräteanwendung, aktive Übungen - je nach Fall, Dauer ca. 60 - 90 Min.)
 
-**2. Termin:** Behandlung (manuelle oder energetische Behandlung, Gerätheanwendung, aktive Übungen - je nach Fall, Dauer ca. 60 - 90 Min.)
--> wieviele Termine nötig sind, hängt von der Schwere des Problems und der Regenerationsfähigkeit des einzelnen Pferdes ab!
+Wieviele Termine nötig sind, hängt von der Schwere des Problems und der Regenerationsfähigkeit des einzelnen Pferdes ab!
