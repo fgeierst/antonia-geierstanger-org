@@ -1,7 +1,10 @@
-# Gymnastikkurs
-
-## Nicht nur für das Pferd.
-[{{ :reitergymnastik.jpg?nolink&200|Pezziball}}]
+---
+title: Gymnastikkurs - nicht nur für das Pferd
+eleventyNavigation:
+  key: Gymnastik
+  parent: Kurse
+---
+<!-- [{{ :reitergymnastik.jpg?nolink&200|Pezziball}}] -->
 
 Wir müssen nicht nur täglich dafür sorgen, dass unsere Pferde gut gymnastiziert sind um uns tragen zu können und unseren Anforderungen gewachsen zu sein, sondern es ist auch wichtig, dass wir unseren eigenen Körper „fit“ halten. 
 

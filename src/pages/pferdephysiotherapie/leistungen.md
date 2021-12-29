@@ -1,61 +1,48 @@
+---
+title: Leistungen
+eleventyNavigation:
+  key: Leistungen
+  parent: Pferdephysiotherapie
+---
 {{gallery>:leistungen}}
-# Leistungen
 
-Als Hausbesuch oder [stationäre Therapie](stationaer)
+Als Hausbesuch oder [stationäre Therapie](../stationaer)
 
 
-#### Pferde - Check
+## Pferde-Check
 
 Dauer ca. 60 - 90 Min.
 
 *  Allgemeine therapeut. Untersuchung
-
 *  Energetische Untersuchung
-
 *  Ganganalyse
-
 *  Stellungsanalyse
-
 *  Ausrüstungsanalyse
-
 *  Videoanalyse (Pferd + gegebenfalls Reiter)
 
-#### angewandte Pferdetherapien
+## angewandte Pferdetherapien
 
 *  Massage
-
 *  Dehnungen
-
 *  aktive + passive Gelenkmobilisation
-
 *  Wirbelsäulengymnastik
-
 *  Lymphdrainage
-
 *  Stresspunkttherapie
-
 *  Akupressur/ Laserakupunktur/ energetische Therapien
-
 *  Gerätetherapie (Tens, Neuro Stim, Magnetfeld)
 
-#### Aktiv- / Heilgymnastik
-
+## Aktiv-/Heilgymnastik
 
 
 *  Longe/ Doppellonge
-
-*  [Cavalettiarbeit/ Freispringen](cavalettigymnastik)
-
+*  [Cavalettiarbeit/ Freispringen](../cavalettigymnastik)
 *  Trainingsberatung
 
 
-#### Zusammenarbeit mit
-
+## Zusammenarbeit mit
 
 *  Tierarzt
-
 *  Hufschmied
-
 *  Sattler
 
 
