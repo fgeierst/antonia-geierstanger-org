@@ -1,3 +1,6 @@
 # antonia.geierstanger.org
 
-* static site generater: eleventy
+* (Old) live url: http://antonia.geierstanger.org/
+* Static site generater: https://www.11ty.dev/
+* Preview deploy (Vercel): https://antonia-geierstanger-org.vercel.app/
+
