@@ -22,7 +22,7 @@ async function imageShortcode(src, alt, cls, sizes ) {
 }
 
 module.exports = function (eleventyConfig) {
-
+  eleventyConfig.addPassthroughCopy("./src/assets/fonts");
   eleventyConfig.addWatchTarget("./src/scss/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addFilter("dropContentFolder", function (path) {
