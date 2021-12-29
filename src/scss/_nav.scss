@@ -24,10 +24,12 @@
 
 		&:hover {
 			text-decoration: underline;
+			text-decoration-color: var(--color-light-text);
 		}
 	}
 
 	&__active > a {
 		font-weight: bold;
+		color: var(--color-light-text);
 	}
 }

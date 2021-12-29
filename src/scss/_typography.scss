@@ -2,19 +2,33 @@ body {
 	font-family: var(--font);
 	color: var(--color-text);
 	background-color: var(--color-background);
+	font-size: clamp(1rem, 1rem + .42vw, 1.41rem);
 }
 
 a {
 	color: inherit;
 	text-underline-offset: .18em;
+	text-decoration-color: var(--color-light-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: var(--color-purple);
+h2, h3, h4, h5, h6 {
+	margin-block-start: 1.7em;
+	color: var(--color-light-text);
 	font-size: inherit;
 	font-weight: bold;
 }
 
 h1 {
 	font-size: 1.5rem;
+	font-size: clamp(1.5rem,1.25rem + 2vw,3rem);
+	color: var(--color-purple);
 }
+
+strong {
+	color: var(--color-light-text);
+}
+
+li::marker {
+	color: var(--color-light-text);
+}
+

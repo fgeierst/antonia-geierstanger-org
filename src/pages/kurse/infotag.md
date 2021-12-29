@@ -1,5 +1,5 @@
 ---
-title: Informationstag Was ist Pferdephysiotherapie?
+title: Informationstag - Was ist Pferdephysiotherapie?
 eleventyNavigation:
   key: Infotag
   parent: Kurse
