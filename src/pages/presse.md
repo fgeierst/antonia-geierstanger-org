@@ -2,7 +2,7 @@
 title: Pressespiegel
 eleventyNavigation:
   key: Pressespiegel
-  parent: Biographie
+  order: 40
 ---
 ## Oberstdorf Magazin, Mai 2010
 

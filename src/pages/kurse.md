@@ -2,6 +2,7 @@
 title: Kurse
 eleventyNavigation:
   key: Kurse
+  order: 3
 ---
 <!-- {{gallery>:kurse}} -->
 

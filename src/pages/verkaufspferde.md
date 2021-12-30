@@ -2,6 +2,7 @@
 title: Verkaufspferde
 eleventyNavigation:
   key: Verkaufspferde
+  order: 10
 ---
 
 Die Verkaufspferde werden bei mir eingeritten.

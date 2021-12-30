@@ -2,6 +2,7 @@
 title: Datenschutzerklärung
 eleventyNavigation:
   key: Datenschutz
+  order: 100
 ---
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:

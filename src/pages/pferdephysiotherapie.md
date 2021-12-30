@@ -2,6 +2,7 @@
 title: Was ist Pferdephysiotherapie?
 eleventyNavigation:
   key: Pferdephysiotherapie
+  order: 2
 ---
 <!-- {{gallery>:physio_info}} -->
 

@@ -2,6 +2,7 @@
 title: Therapeutisches "Reiten"
 eleventyNavigation:
   key: Therapeutisches "Reiten"
+  order: 3
 ---
 <!-- {{gallery>:ergo_}} -->
 

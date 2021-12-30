@@ -2,6 +2,7 @@
 title: Hundephysiotherapie
 eleventyNavigation:
   key: Hundephysiotherapie
+  order: 4
 ---
 <!-- {{gallery>:hunde}} -->
 
