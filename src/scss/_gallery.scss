@@ -1,0 +1,12 @@
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap: .5rem;
+	margin-block-end: 4rem;
+
+	& img {
+		object-fit: cover;
+		aspect-ratio: 1 / 1;
+		display: block;
+	}
+}

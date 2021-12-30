@@ -4,7 +4,17 @@ eleventyNavigation:
   key: Hundephysiotherapie
   order: 4
 ---
-<!-- {{gallery>:hunde}} -->
+<div class="gallery">
+  <figure>
+    {% image "./src/assets/img/hundephysio-1.jpg", "Wärme Behandlung/ heiße Rolle", "(min-width: 700px) 75vw, 100vw" %}
+    <figcaption>
+      Wärme Behandlung/ heiße Rolle
+    </figcaption>
+  </figure>
+
+  {% image "./src/assets/img/hundephysio-3.jpg", "Laserakupunktur", "(min-width: 700px) 75vw, 100vw" %}
+  {% image "./src/assets/img/hundephysio-4.jpg", "Bewegungsübungen", "(min-width: 700px) 75vw, 100vw" %}
+</div>
 
 Die Hundephysiotherapie wird zur Schmerzlinderung, Bewegungsverbesserung und Erhalt, Muskelaufbau und Narbenbehandlung eingesetzt.
 
