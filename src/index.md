@@ -5,7 +5,7 @@ eleventyNavigation:
   key: Startseite
   order: 0
 ---
-{% image "./src/assets/biographie/infotag_ii.jpg", "Antonia Geierstanger", "img", "(min-width: 30em) 50vw, 100vw" %}
+{% image "./src/assets/img/antonia-infotag-2.jpg", "Antonia Geierstanger", "(min-width: 700px) 75vw, 100vw" %}
 
 ## Kontakt
 

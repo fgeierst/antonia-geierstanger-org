@@ -4,7 +4,7 @@ eleventyNavigation:
   key: Pferdephysiotherapie
   order: 2
 ---
-<!-- {{gallery>:physio_info}} -->
+{% image "./src/assets/img/halsdehnung.jpg", "Halsdehnung", "(min-width: 700px) 75vw, 100vw" %}
 
 Eine auf das Pferd (und den Reiter) individuell abgestimmte Therapie, um
 
