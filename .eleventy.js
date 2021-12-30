@@ -1,7 +1,7 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, cls, sizes ) {
+async function imageShortcode(src, alt, sizes ) {
   let metadata = await Image(src, {
     widths: [300, 600],
     formats: ["avif", "jpeg", "svg"],
@@ -11,7 +11,6 @@ async function imageShortcode(src, alt, cls, sizes ) {
   });
 
   let imageAttributes = {
-    class: cls,
     alt,
     sizes,
     loading: "lazy",
@@ -22,7 +21,7 @@ async function imageShortcode(src, alt, cls, sizes ) {
 }
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/assets/fonts");
+  eleventyConfig.addPassthroughCopy("./src/assets/static");
   eleventyConfig.addWatchTarget("./src/scss/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addFilter("dropContentFolder", function (path) {
