@@ -1,13 +1,14 @@
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-	gap: .5rem;
+	gap: 1rem;
 	margin-block-end: 4rem;
 
 	& img {
 		object-fit: cover;
 		aspect-ratio: 1 / 1;
 		display: block;
+		border-radius: .3rem;
 	}
 
 	&__captions {
@@ -17,11 +18,11 @@
 		padding-inline-start: 0;
 		margin-block: 0;
 		margin-inline-start: 2rem;
+
 		& li {
 			margin-inline: 20px;
-			font-style: italic;
-			font-style:oblique;
-			font-weight: light;
+			color: var(--color-light-text);
+			font-size: 85%;
 		}
 	}
 }
