@@ -5,9 +5,9 @@ eleventyNavigation:
   order: 4
 ---
 <div class="gallery">
-  {% image "./src/assets/img/hundephysio-1.jpg", "Wärme Behandlung/ heiße Rolle", "(min-width: 700px) 75vw, 100vw" %}
-  {% image "./src/assets/img/hundephysio-3.jpg", "Laserakupunktur", "(min-width: 700px) 75vw, 100vw" %}
-  {% image "./src/assets/img/hundephysio-4.jpg", "Bewegungsübungen", "(min-width: 700px) 75vw, 100vw" %}
+  {% image "./src/assets/img/hundephysio-1.jpg", "Wärme Behandlung/heiße Rolle", "30vw" %}
+  {% image "./src/assets/img/hundephysio-3.jpg", "Laserakupunktur", "30vw" %}
+  {% image "./src/assets/img/hundephysio-4.jpg", "Bewegungsübungen", "30vw" %}
   <ol class="gallery__captions" aria-hidden="true">
     <li>Wärme Behandlung/ heiße Rolle</li>
     <li>Laserakupunktur</li>
