@@ -14,7 +14,7 @@
     border-radius: 2px;
     transition: 0.5s;
     transform-origin: center;
-    background-color: grey;
+    background-color: var(--color-blue);
 
     &:nth-child(1) {
       top: 0.3rem;

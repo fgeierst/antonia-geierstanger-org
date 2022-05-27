@@ -1,10 +1,11 @@
 
-<button class="header__menu-button" onclick="document.querySelector('.header__nav').classList.toggle('header__nav--open')">Menü</button>
-<button class="hamburg" aria-expanded="false" onclick="document.querySelector('.header__nav').classList.toggle('header__nav--open')"> <span></span><span></span><span></span></button>
-<a href="/" class="header__link">
-	<img class="header__logo" src="/assets/static/logo.svg" alt="Silhouetten eines Pferdes und eines Hundes" width="200" height="262">
-	<span class="header__site-title">Antonia Geierstanger</span>
-</a>
+<div class="header__title">
+	<button class="header__menu-button hamburg" aria-expanded="false"> <span></span><span></span><span></span></button>
+	<a href="/" class="header__link">
+		<img class="header__logo" src="/assets/static/logo.svg" alt="Silhouetten eines Pferdes und eines Hundes" width="200" height="262">
+		<span class="header__site-title">Antonia Geierstanger</span>
+	</a>	
+</div>
 
 {% include 'nav.njk' %} 
 
@@ -13,5 +14,6 @@
 	button.addEventListener("click", (event) => {
 		let expanded = button.getAttribute("aria-expanded") === "true" || false;
 		button.setAttribute("aria-expanded", !expanded);
+		document.querySelector('.header__nav').classList.toggle('header__nav--open')
 	});
 </script>
