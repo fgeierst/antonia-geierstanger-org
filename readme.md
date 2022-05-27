@@ -7,8 +7,7 @@
 | 100         | 100           | 100            | 0.8s | 0ms | 0.03 |
 
 - Stack: [Eleventy](https://www.11ty.dev/)
-- Preview deploy (Vercel): https://antonia-geierstanger-org.vercel.app/
-- Legacy site (Dokuwiki): http://antonia.geierstanger.org/
-- Repo: https://github.com/fgeierst/bolivianisches-kinderhilfswerk-stiftung
+- Live URL: http://antonia.geierstanger.org/
+- Repo: https://github.com/fgeierst/antonia-geierstanger-org
 - Design sketch: https://www.figma.com/file/CmKU4ii0v6FKLeAsoCrSif/antonia-geierstanger-org
 
