@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Bewegungs(t)räume
   parent: Kurse
 ---
-<!-- {{gallery>:ferien_}} -->
 
 *  **Ferienprogramm**
 *  **Kursdauer:** 1 - 3 Tage (Anmeldung für Einzeltage oder für 3 Tage)

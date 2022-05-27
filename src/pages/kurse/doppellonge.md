@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Doppellonge
   parent: Kurse
 ---
-<!-- {{gallery>:dolo}} -->
 
 *  **Kursdauer:**	1 1/2 Tage
 *  **Uhrzeit:** Beginn 10 Uhr bis ca. 16 Uhr, am zweiten Tag bis ca. 13 Uhr

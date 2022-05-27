@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Cavalettiymnastik
   parent: Pferdephysiotherapie
 ---
-{{gallery>:stangenarbeit}}
 
 *  **Dehnübungen** (Abstände werden langsam erweitert)
 *  **Beugeübungen** (Abstände werden langsam verringert)

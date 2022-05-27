@@ -5,7 +5,6 @@ eleventyNavigation:
   parent: Pferdephysiotherapie
 ---
 
-<!-- [{{ :a_reiten.jpg?240|Therapeutischer Beritt}}] -->
 
 ## Ergänzung zur Veterinärmedizin
 
@@ -24,7 +23,6 @@ eleventyNavigation:
 *  Beseitigt Muskelverspannungen
 *  Beugt Muskelkater nach anstrengendem Training vor 
 *  Hilft zur schnelleren Erholung
-<!-- [{{ :07reitplatz.jpg?240|mit Cavaletti}}] -->
 
 
 ## Vorbeugung
@@ -43,7 +41,6 @@ eleventyNavigation:
 
 ## Wann kommt Physiotherapie für das Pferd zur Anwendung?
 
-<!-- [{{ :a_wasserfall.jpg?240|Bergtouren mit Pferden\\ erfordern Höchstleistung}}] -->
 
 *  **A**rthrose
 *  Agressivität beim Putzen, Satteln, gegenüber anderen Pferden... (plötzlich auftretend)

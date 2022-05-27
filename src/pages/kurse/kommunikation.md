@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Führen lernen
   parent: Kurse
 ---
-<!-- {{gallery>:kommunikation}} -->
 
 In diesem Seminar haben die Teilnehmer die Möglichkeit, ihre eigene Persönlichkeit besser kennen zu lernen. Im Kontakt mit den Pferden kann die Wirkung von Körpersprache erlebt werden (nonverbale Kommunikation).
 

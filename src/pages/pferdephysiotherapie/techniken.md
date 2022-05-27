@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Techniken
   parent: Pferdephysiotherapie
 ---
-{{gallery>:techniken}}
 
 ## Was bewirkt Massage?
 

@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Kurse
   order: 3
 ---
-<!-- {{gallery>:kurse}} -->
 
 ##  Anmeldung
 
@@ -26,14 +25,12 @@ Die Anmeldung ist per [Email](mailto:antonia@geierstanger.org) oder telefonisch 
 * Termin: 16.04.2016
 * In diesem 3 bis 4 stündigem Tagesseminar sollen Sie als Hundebesitzer einen Blick zur Erkennung gesundheitlicher Probleme Ihres Vierbeiners bekommen. Sie erlernen einfache Behandlungsmethoden, die Sie selbst durchführen können. Sei es zur Vorbeugung, um Ihrem Hund einfach etwas Gutes zu tun, aber vor Allem auch um Ihren kranken oder alten Hund zu unterstützen. Wir werden die verschiedenen Entwicklungs- und Aktivitätsstufen vom Welpen bis zum alten Hund erläutern und wir erarbeiten gemeinsam einen AKTIV-Parcours. Hier kommt es mal nicht „a la Agility“ auf Schnelligkeit an, sondern Ihr Hund wird langsam und bedacht an die Hindernisse heran geführt.
   
-<!-- {{:2014-08-21_09.25.25.jpg?300|}} -->
 
 
 ## Reiten über Körpersprache 2016
 
 Dieses Angebot richtet sich an Erwachsene, die einen neuen bzw. anderen Zugang zum Pferd erleben wollen. Begonnen wird mit der Arbeit am Boden mit dem freien Pferd oder am Seil. Dabei lernt der Mensch, sich seiner Körpersprache bewusst zu werden und diese geziel einzusetzen, um das Pferd zu bewegen. Dies wird dann auch auf das Reiten übertragen, welches unabhängig vom Zügel, rein aus dem Sitz und inneren Bildern heraus erarbeitet wird.
 
-<!-- {{:vlcsnap-2011-04-05-21h40m48s103.png?300|}} -->
 
 
 ## Kinderreitgruppen 
@@ -41,7 +38,6 @@ Dieses Angebot richtet sich an Erwachsene, die einen neuen bzw. anderen Zugang z
 Ab April 2016 starten wieder die (therapeutischen) Kinderreitgruppen am Montag, Mittwoch und Freitag. Die Stunden beinhalten die Theorie rund um´s Pferd, das Reiten von Bahnfiguren, Spiele an der Longe mit Ball und Ringen, Voltigieren, Geschicklichkeisspiele, Arbeit mit dem freien Pferd über die Körpersprache, sowie Ausritte.
 Die Gruppen bestehen maximal aus 3 Kindern und die Kinder arbeiten gemeinsam mit 1 - 3 Pferden. Es gibt bei mir kein Abteilungsreiten.
 
-<!-- {{:img_0408.jpg?300|}} -->
 
 
 ## [Bewegungs(t)räume](../kurse/pferdeworkshop) - Ferienprogramm Pferdeworkshop für Kinder 

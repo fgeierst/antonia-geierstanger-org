@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Muskuläre Probleme
   parent: Pferdephysiotherapie
 ---
-{{gallery>:muskulaer}}
 
 ## im Alltag
 

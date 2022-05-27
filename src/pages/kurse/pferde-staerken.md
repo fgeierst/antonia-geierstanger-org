@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Pferde-Stärken
   parent: Kurse
 ---
-<!-- {{gallery>:k_p_m}} -->
 
 
 *  **Kursdauer:** 1 Tag

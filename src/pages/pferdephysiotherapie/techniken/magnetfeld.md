@@ -5,7 +5,6 @@ eleventyNavigation:
   parent: Techniken
 ---
 
-{{gallery>:magnetfeld}}
 
 ## Einsatzbereiche
 

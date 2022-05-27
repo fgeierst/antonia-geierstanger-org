@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Stationär
   parent: Pferdephysiotherapie
 ---
-<!-- {{gallery>:stationaer}} -->
 
 *  als Intensivtherapie
 *  zur Rehabilitation nach Krankheiten und Operationen

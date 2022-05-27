@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Körpersprache
   parent: Kurse
 ---
-<!-- {{gallery>:k_p_m}} -->
 
 Ein Kurs, in dem Sie die Körpersprache des Pferdes verstehen lernen und erfahren, wie Sie Ihren eigenen Körper zur Kommunikation einsetzen können.
 

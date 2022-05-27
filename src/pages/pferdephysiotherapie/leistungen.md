@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Leistungen
   parent: Pferdephysiotherapie
 ---
-{{gallery>:leistungen}}
 
 Als Hausbesuch oder [stationäre Therapie](../stationaer)
 

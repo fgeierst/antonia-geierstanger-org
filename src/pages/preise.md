@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Preise
   order: 20
 ---
-<!-- [{{ ausschnitt.jpg?240|**Antonia Geierstanger**\\ Pferde- und Hundephysiotherapeutin\\ Trainerin C Reiten\\ Ergotherapeutin}}] -->
 
 ## Pferdephysiotherapie
 
