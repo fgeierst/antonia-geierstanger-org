@@ -8,7 +8,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass  --no-source-map src/scss:public/css",
     "build:eleventy": "eleventy",
-    "start": "npm-run-all build:sass --parallel watch:*",
+    "dev": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
   "keywords": [],
