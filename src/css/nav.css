@@ -1,35 +1,35 @@
 .nav ul {
-    padding-left: 1rem;
-    list-style: none;
+	padding-left: 1rem;
+	list-style: none;
 }
 
 @media (max-width: 700px) {
-    .nav ul {
-        font-size: 1.2rem;
-    }
+	.nav ul {
+		font-size: 1.2rem;
+	}
 }
 
 .nav > ul {
-    padding-left: 0;
+	padding-left: 0;
 }
 
 @media (max-width: 700px) {
-    .nav li {
-        margin-block-start: 0.5rem;
-    }
+	.nav li {
+		margin-block-start: 0.5rem;
+	}
 }
 
 .nav a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .nav a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--color-light-text);
+	text-decoration: underline;
+	text-decoration-color: var(--color-light-text);
 }
 
 .nav__active > a {
-    font-weight: bold;
-    color: var(--color-light-text);
+	font-weight: bold;
+	color: var(--color-light-text);
 }

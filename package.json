@@ -1,19 +1,19 @@
 {
-  "name": "antonia-geierstanger-org",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-img": "^6.0.4",
-    "@11ty/eleventy-navigation": "^1.0.4"
-  },
-  "browserslist": [
-    "> 0.5%",
-    "not IE 11"
-  ]
+	"name": "antonia-geierstanger-org",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.4"
+	},
+	"browserslist": [
+		"> 0.5%",
+		"not IE 11"
+	]
 }

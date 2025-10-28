@@ -10,8 +10,8 @@ eleventyNavigation:
 
 ## Kontakt
 
-Antonia Geierstanger  
-Scheibenstraße 8  
+Antonia Geierstanger
+Scheibenstraße 8
 87561 Oberstdorf
 
 Handy: 0176 21309104

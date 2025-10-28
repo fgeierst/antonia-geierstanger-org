@@ -10,4 +10,3 @@
 - Live URL: http://antonia.geierstanger.org/
 - Repo: https://github.com/fgeierst/antonia-geierstanger-org
 - Design sketch: https://www.figma.com/file/CmKU4ii0v6FKLeAsoCrSif/antonia-geierstanger-org
-
