@@ -5,39 +5,41 @@
 	height: 2rem;
 	position: relative;
 	margin: 0 auto;
-}
 
-.hamburg > span {
-	position: absolute;
-	left: 0;
-	height: 4px;
-	width: 100%;
-	border-radius: 2px;
-	transition: 0.5s;
-	transform-origin: center;
-	background-color: var(--color-blue);
-}
+	& > span {
+		position: absolute;
+		left: 0;
+		height: 4px;
+		width: 100%;
+		border-radius: 2px;
+		transition: 0.5s;
+		transform-origin: center;
+		background-color: var(--color-blue);
 
-.hamburg > span:nth-child(1) {
-	top: 0.3rem;
-}
+		&:nth-child(1) {
+			top: 0.3rem;
+		}
 
-.hamburg > span:nth-child(2) {
-	top: 0.9rem;
-}
+		&:nth-child(2) {
+			top: 0.9rem;
+		}
 
-.hamburg > span:nth-child(3) {
-	top: 1.5rem;
-}
+		&:nth-child(3) {
+			top: 1.5rem;
+		}
+	}
 
-.hamburg[aria-expanded="true"] > span:nth-child(1) {
-	transform: translateY(0.6rem) rotate(-45deg);
-}
+	&[aria-expanded="true"] > span {
+		&:nth-child(1) {
+			transform: translateY(0.6rem) rotate(-45deg);
+		}
 
-.hamburg[aria-expanded="true"] > span:nth-child(2) {
-	opacity: 0;
-}
+		&:nth-child(2) {
+			opacity: 0;
+		}
 
-.hamburg[aria-expanded="true"] > span:nth-child(3) {
-	transform: translateY(-0.6rem) rotate(45deg);
+		&:nth-child(3) {
+			transform: translateY(-0.6rem) rotate(45deg);
+		}
+	}
 }
