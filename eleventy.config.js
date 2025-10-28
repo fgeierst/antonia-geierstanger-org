@@ -20,7 +20,7 @@ async function imageShortcode(src, alt, sizes) {
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets/static");
-  eleventyConfig.addWatchTarget("./src/scss/");
+  eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addFilter("dropContentFolder", function (path) {
     if (path.endsWith("/index")) {
@@ -38,7 +38,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "public",
+      output: "dist",
     },
   };
 }

@@ -1,0 +1,239 @@
+:root {
+	--font: 'Maven Pro', system-ui, sans-serif;
+	--color-text: #1D1D1D;
+	--color-light-text: #303030;
+	--color-background-shaded: #bcb8b1;
+	--color-background: #fff;
+	--color-purple: #93009D;
+	--color-blue: #0182F6;
+}
+body {
+	font-family: var(--font);
+	color: var(--color-text);
+	background-color: var(--color-background);
+	font-size: clamp(1rem, 1rem + .42vw, 1.41rem);
+	word-break: break-word;
+}
+
+a {
+	color: inherit;
+	text-underline-offset: .18em;
+	text-decoration-color: var(--color-light-text);
+}
+
+h2, h3, h4, h5, h6 {
+	margin-block-start: 1.7em;
+	color: var(--color-light-text);
+	font-size: inherit;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5rem;
+	font-size: clamp(1.5rem,1.25rem + 2vw,3rem);
+	color: var(--color-purple);
+}
+
+strong {
+	color: var(--color-light-text);
+}
+
+li::marker {
+	color: var(--color-light-text);
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: row;
+    margin: 1rem;
+    margin-block-end: 6rem;
+}
+
+@media (min-width: 700px) {
+    .wrapper {
+        grid-template-columns: 15rem 1fr;
+        margin-inline: 2rem;
+        margin-block-start: 2rem;
+    }
+}
+
+.wrapper__main {
+    max-width: 60ch;
+}
+
+@media (min-width: 700px) {
+    .wrapper__footer {
+        grid-column: 1 / -1;
+        margin-inline: -2rem;
+    }
+}
+
+.header__title {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header__link {
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.header__logo {
+    @media (max-width: 700px) {
+        display: none;
+    }
+}
+
+.header__site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-blue);
+
+    @media (min-width: 700px) {
+        margin-block-start: 1rem;
+        display: block;
+    }
+}
+
+.header__menu-button {
+    @media (min-width: 700px) {
+        display: none;
+    }
+}
+
+.header__nav {
+    @media (max-width: 700px) {
+        display: none;
+    }
+}
+
+.header__nav--open {
+    @media (max-width: 700px) {
+        display: block;
+        border-block-end: 2px solid var(--color-blue);
+    }
+}
+
+.nav ul {
+    padding-left: 1rem;
+    list-style: none;
+}
+
+@media (max-width: 700px) {
+    .nav ul {
+        font-size: 1.2rem;
+    }
+}
+
+.nav > ul {
+    padding-left: 0;
+}
+
+@media (max-width: 700px) {
+    .nav li {
+        margin-block-start: 0.5rem;
+    }
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-light-text);
+}
+
+.nav__active > a {
+    font-weight: bold;
+    color: var(--color-light-text);
+}
+
+.footer {
+	background-color: whitesmoke;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    gap: 1rem;
+    margin-block-end: 4rem;
+}
+
+.gallery img {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: block;
+    border-radius: 0.3rem;
+}
+
+.gallery__captions {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block: 0;
+    margin-inline-start: 2rem;
+}
+
+.gallery__captions li {
+    margin-inline: 20px;
+    color: var(--color-light-text);
+    font-size: 85%;
+}
+
+.hamburg {
+    background-color: transparent;
+    border-width: 0;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hamburg > span {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.5s;
+    transform-origin: center;
+    background-color: var(--color-blue);
+}
+
+.hamburg > span:nth-child(1) {
+    top: 0.3rem;
+}
+
+.hamburg > span:nth-child(2) {
+    top: 0.9rem;
+}
+
+.hamburg > span:nth-child(3) {
+    top: 1.5rem;
+}
+
+.hamburg[aria-expanded="true"] > span:nth-child(1) {
+    transform: translateY(0.6rem) rotate(-45deg);
+}
+
+.hamburg[aria-expanded="true"] > span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburg[aria-expanded="true"] > span:nth-child(3) {
+    transform: translateY(-0.6rem) rotate(45deg);
+}
+
