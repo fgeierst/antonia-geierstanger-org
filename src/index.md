@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 0
 ---
 
-{% image "./src/assets/img/antonia.jpg", "Antonia Geierstanger", "(min-width: 700px) 75vw, 100vw" %}
+{% image "./src/assets/img/antonia.jpg", "Antonia Geierstanger", "(min-width: 700px) 75vw, 100vw", "high" %}
 
 ## Kontakt
 

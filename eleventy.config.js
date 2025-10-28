@@ -1,7 +1,7 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import Image from "@11ty/eleventy-img";
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, alt, sizes, fetchpriority) {
 	let metadata = await Image(src, {
 		widths: [500, 900],
 		formats: ["avif", "jpeg", "svg"],
@@ -15,11 +15,16 @@ async function imageShortcode(src, alt, sizes) {
 		sizes,
 	};
 
+	if (fetchpriority) {
+		imageAttributes.fetchpriority = fetchpriority;
+	}
+
 	return Image.generateHTML(metadata, imageAttributes);
 }
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/assets/static");
+	eleventyConfig.addPassthroughCopy("./src/.htaccess");
 	eleventyConfig.addWatchTarget("./src/css/");
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addFilter("dropContentFolder", function (path) {
