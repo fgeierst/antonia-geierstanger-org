@@ -1,0 +1,3 @@
+<nav
+	@html="eleventyNavigationToHtml(eleventyNavigation($data.collections.all), {activeListItemClass: 'nav__active', activeKey: eleventyNavigation.key})"
+></nav>
