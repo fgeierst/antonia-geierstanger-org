@@ -2,4 +2,7 @@
 ErrorDocument 410 /410-message/index.html
 
 RewriteEngine On
+# Allow the 410 error page itself to load
+RewriteCond %{REQUEST_URI} !^/410-message/
+# Redirect everything else to 410
 RewriteRule ^(.*)$ - [G,L]
