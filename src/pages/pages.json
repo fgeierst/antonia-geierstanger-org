@@ -1,5 +1,0 @@
-{
-	"tags": "pages",
-	"layout": "base",
-	"permalink": "{{ page.filePathStem | dropContentFolder }}/index.html"
-}
